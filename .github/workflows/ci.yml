@@ -37,7 +37,7 @@ jobs:
           php -m
 
       - name: Create tables
-        run: mysql -uimbo_test -pimbo_test -hlocalhost -P3333 < ./setup/000-imbo.sql
+        run: mysql -uimbo_test -pimbo_test -h127.0.0.1 -P3333 < ./setup/000-imbo.sql
 
       - name: Validate composer files
         run: composer validate --strict
