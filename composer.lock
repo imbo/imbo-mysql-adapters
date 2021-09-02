@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/imbo/imbo-pdo-adapters.git",
-                "reference": "8be2ca3aabbee29416b146ed0e11701eea70f396"
+                "reference": "509e6fa8e32e0ef55c720d1589d56fa4cf503cd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imbo/imbo-pdo-adapters/zipball/8be2ca3aabbee29416b146ed0e11701eea70f396",
-                "reference": "8be2ca3aabbee29416b146ed0e11701eea70f396",
+                "url": "https://api.github.com/repos/imbo/imbo-pdo-adapters/zipball/509e6fa8e32e0ef55c720d1589d56fa4cf503cd1",
+                "reference": "509e6fa8e32e0ef55c720d1589d56fa4cf503cd1",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "issues": "https://github.com/imbo/imbo-pdo-adapters/issues",
                 "source": "https://github.com/imbo/imbo-pdo-adapters/tree/main"
             },
-            "time": "2021-09-02T19:48:49+00:00"
+            "time": "2021-09-02T21:42:35+00:00"
         }
     ],
     "packages-dev": [
@@ -817,12 +817,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/imbo/imbo-adapters-sdk.git",
-                "reference": "1290f9646696abce8f09b301e1a9ea914e648353"
+                "reference": "32d9617c31be0f066dde2038b1425d004c18d4df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imbo/imbo-adapters-sdk/zipball/1290f9646696abce8f09b301e1a9ea914e648353",
-                "reference": "1290f9646696abce8f09b301e1a9ea914e648353",
+                "url": "https://api.github.com/repos/imbo/imbo-adapters-sdk/zipball/32d9617c31be0f066dde2038b1425d004c18d4df",
+                "reference": "32d9617c31be0f066dde2038b1425d004c18d4df",
                 "shasum": ""
             },
             "require": {
@@ -866,7 +866,7 @@
                 "issues": "https://github.com/imbo/imbo-adapters-sdk/issues",
                 "source": "https://github.com/imbo/imbo-adapters-sdk/tree/main"
             },
-            "time": "2021-09-02T19:36:29+00:00"
+            "time": "2021-09-02T21:39:18+00:00"
         },
         {
             "name": "imbo/imbo-coding-standard",
