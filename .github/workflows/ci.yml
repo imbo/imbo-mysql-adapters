@@ -19,6 +19,8 @@ jobs:
         ports:
           - 3333:3306
         options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+        volumes:
+          - ${{ github.workspace }}/setup:/docker-entrypoint-initdb.d
 
     steps:
       - uses: actions/checkout@v2
