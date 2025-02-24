@@ -35,7 +35,7 @@ class MySQLIntegrationTest extends DatabaseTests
         ];
 
         foreach ($tables as $table) {
-            $pdo->query("DELETE FROM `{$table}`");
+            $pdo->exec("DELETE FROM `{$table}`");
         }
     }
 }

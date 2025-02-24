@@ -26,6 +26,6 @@ class MySQLIntegrationTest extends DatabaseTests
             (string) getenv('DB_PASSWORD'),
         );
 
-        $pdo->query(sprintf("DELETE FROM `%s`", MySQL::IMAGEVARIATIONS_TABLE));
+        $pdo->exec(sprintf("DELETE FROM `%s`", MySQL::IMAGEVARIATIONS_TABLE));
     }
 }
