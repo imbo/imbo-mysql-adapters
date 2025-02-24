@@ -2,10 +2,9 @@
 namespace Imbo\EventListener\ImageVariations\Database;
 
 use PDO;
+use PHPUnit\Framework\Attributes\CoversClass;
 
-/**
- * @coversDefaultClass Imbo\EventListener\ImageVariations\Database\MySQL
- */
+#[CoversClass(MySQL::class)]
 class MySQLIntegrationTest extends DatabaseTests
 {
     protected function getAdapter(): MySQL
